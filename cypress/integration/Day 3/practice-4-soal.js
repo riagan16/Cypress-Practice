@@ -1,5 +1,5 @@
 describe('kumpulan test case', function () {
-    /* it('tc-1', function () {
+    it('tc-1', function () {
         cy.visit('https://ultimateqa.com/simple-html-elements-for-automation/')
         cy.get('#et_pb_contact_name_0').type('Tes Nama').should('have.value', 'Tes Nama')
         cy.get('#et_pb_contact_email_0').type('initesemail@email.com').should('have.value', 'initesemail@email.com')
@@ -15,7 +15,7 @@ describe('kumpulan test case', function () {
         cy.visit('https://ultimateqa.com/simple-html-elements-for-automation/')
         cy.get('[value="Bike"]').check().should('be.checked')
         cy.get('[value="Car"]').check().should('be.checked')
-    }) */
+    }) 
 
     it('tc-4', function () {
         cy.visit('https://ultimateqa.com/simple-html-elements-for-automation/')
